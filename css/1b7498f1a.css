@@ -3132,6 +3132,7 @@ h1 {
 .sticky-nav {
 	position: -webkit-sticky;
 	position: sticky;
+	-webkit-mask-image: -webkit-gradient(linear, left center, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 	top: 0px;
 	z-index: 1000;
 	padding: 20px;
